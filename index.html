@@ -6,24 +6,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+    <title>Entrega 2 - CSS</title>
 </head>
 
 <body>
     <header>
         <img src="./img/logo.png" alt="Logo da Kenzieflix" />
-        <h2>Quem está assistindo?</h2>
+        <h1>Quem está assistindo?</h1>
     </header>
     <main>
-        <section>
-            <img src="./img/pink.png" alt="Usuário 1" />
-            <p>Aline</p>
-            <img src="./img/panda.png" alt="Usuário 2" />
-            <p>Pedrinho</p>
-            <img src="./img/robot.png" alt="Usuário 3" />
-            <p>Júlia</p>
-            <img src="./img/plus.png" alt="Adicionar perfil" />
-            <p>Adicionar perfil</p>
+        <section class="users" type="inline-block">
+            <img src="./img/pink.png" class="img-perfil" alt="Usuário 1" />
+            <p class="username">Aline</p>
+        </section>
+        <section class="users">
+            <img src="./img/panda.png" class="img-perfil" alt="Usuário 2" />
+            <p class="username">Pedrinho</p>
+        </section>
+        <section class="users">
+            <img src="./img/robot.png" class="img-perfil" alt="Usuário 3" />
+            <p class="username">Júlia</p>
+        </section>
+        <section class="users">
+            <img src="./img/plus.png" class="img-perfil" alt="Adicionar perfil" />
+            <p class="username">Adicionar perfil</p>
         </section>
         <footer>
             <button type="submit" class="button">Gerenciar Perfis</button>
