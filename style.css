@@ -1,6 +1,7 @@
 header, footer {
     text-align: center;
-
+    margin: 0vw;
+    padding: 3vw;
 }
 body {
     background-color: black;
@@ -10,7 +11,7 @@ h1 {
     color: white;
 }
 .username {
-    color:gray;
+    color:gray; 
 }
 .button {
     color: white;
@@ -25,8 +26,7 @@ div {
     padding: 0% 9% 0% 9%;
     width: 1000px;
     display: flex;
-    justify-content: space-around;
-
+    justify-content: center;
 }
 .img-perfil {
     display:inline-block;
@@ -34,14 +34,16 @@ div {
     width: 11%;
     border-radius: 3px;
     list-style: none;
+    margin: 1% 2% 1% 2%;
 }
 .users {
     align-content: space-around;
-    align-content: center;
 }
 .username {
     align-content: space-around;
     align-content: center;
+    margin: 1% 5% 1% 5%;
+
 }
 .img-perfil:hover {
     border: solid 1px white;
