@@ -56,9 +56,7 @@ You can view the project online by clicking the link below:
 
 ## 📸 Preview
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/cf9fc879-6af8-40c4-99a3-04a3081af813" alt="Screenshot of the KenzieFlix profile selection screen" width="700">
-</p>
+(See images in the section above)
 
 ## ✨ About the Project
 
